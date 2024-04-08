@@ -11,10 +11,16 @@
 // }
 
 
-const btn = document.getElementById("try")
 
-btn.addEventListener("click", function(e){
-    if(e.ctrlKey){
-        console.log("Yeah it's work");
-    }
-})
+// learn about function (e)
+// const btn = document.getElementById("try")
+
+// btn.addEventListener("click", function(e){
+//     if(e.target){
+//         console.log("Yeah it's work");
+//     }
+// })
+
+
+
+ai ne

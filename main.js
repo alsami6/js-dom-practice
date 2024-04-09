@@ -23,4 +23,4 @@
 
 
 
-ai ne
+// ai aktu push kori r ki 

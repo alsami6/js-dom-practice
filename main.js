@@ -26,3 +26,4 @@
 // ai aktu push kori r ki 
 
 // aije ajk ew tmn kisu nai push korar jonno kore dilam halka kore push
+// ajk to eid

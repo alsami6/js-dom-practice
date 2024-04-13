@@ -43,15 +43,29 @@
 
 // Object destructure
 
-const actor = {
-    name: 'Sami',
-    age: 18,
-    phone: "01717111111",
-    money: 12209898839,
-}
+// const actor = {
+//     name: 'Sami',
+//     age: 18,
+//     phone: "01717111111",
+//     money: 12209898839,
+// }
 
-const{phone}=actor;
-const{money}=actor;
+// const{phone}=actor;
+// const{money}=actor;
 
-console.log(money);
-console.log(phone);
+// console.log(money);
+// console.log(phone);
+
+
+const products = [
+    {id:1, name:"lenovo", price: 65000},
+    {id:2, name:"dell", price: 45000},
+    {id:3, name:"hp", price: 40000},
+    {id:4, name:"mac", price: 150000}
+]
+
+const names = products.map(product => product.name)
+console.log(names);
+
+const prices = products.map(p => p.price);
+console.log(prices);

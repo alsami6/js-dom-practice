@@ -69,3 +69,6 @@ console.log(names);
 
 const prices = products.map(p => p.price);
 console.log(prices);
+
+const expensive = products.filter(p => p.price > 50000)
+console.log(expensive);

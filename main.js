@@ -32,11 +32,26 @@
 
 // filter
 
-const players = [75, 65, 67, 72, 55, 59]
-const selected = players.filter(p => p > 70)
-console.log(selected);
+// const players = [75, 65, 67, 72, 55, 59]
+// const selected = players.filter(p => p > 70)
+// console.log(selected);
 
 // find
 
-const selecte = players.find(p => p > 70)
-console.log(selecte);
+// const selecte = players.find(p => p > 70)
+// console.log(selecte);
+
+// Object destructure
+
+const actor = {
+    name: 'Sami',
+    age: 18,
+    phone: "01717111111",
+    money: 12209898839,
+}
+
+const{phone}=actor;
+const{money}=actor;
+
+console.log(money);
+console.log(phone);

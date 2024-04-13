@@ -35,3 +35,8 @@
 const players = [75, 65, 67, 72, 55, 59]
 const selected = players.filter(p => p > 70)
 console.log(selected);
+
+// find
+
+const selecte = players.find(p => p > 70)
+console.log(selecte);

@@ -85,4 +85,7 @@ const user = {
     job: "Actor"
 }
 
+const stringified = JSON.stringify(user)
+
 console.log(user);
+console.log(stringified);

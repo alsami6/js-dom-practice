@@ -15,8 +15,5 @@ function displayUsers(data){
     console.log(data);
 }
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
+
 // I am beat confused about promise and fetch API

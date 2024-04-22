@@ -16,7 +16,7 @@
         <h1>Wellcome to my Dom</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sed atque voluptatibus commodi assumenda nobis natus hic expedita pariatur voluptas maiores soluta illo ut fugiat, perferendis laborum vitae. In, esse?</p>
     </header>
-    <main>
+    <main class="main-container">
         <section>
             <h1>My awesome DOM de baba</h1>
         <ul>
@@ -35,7 +35,7 @@
         </section>
         <section>
             <h1 id="places-title">Places I like to vist</h1>
-            <ul>
+            <ul id="places-list">
                 <li class="important-places">Pert</li>
                 <li class="important-places">Kashmir</li>
                 <li>Italy</li>
@@ -43,6 +43,7 @@
         </section>
     </main>
     <script src="main.js"></script>
+    <script src="append.js"></script>
     <script>
         const sections = document.querySelectorAll('section');
         for(const section of sections){

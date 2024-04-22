@@ -3,14 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tour of DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #fruits-title{
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <button onclick="loadData()">Load Data</button>
-    <button onclick="loadData2()">id</button>
-    <button onclick="loadUsers()">Load Users</button>
-
-    <script src="app.js"></script>
-    <script src="fetch.js"></script>
+    <header>
+        <h1>Wellcome to my Dom</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sed atque voluptatibus commodi assumenda nobis natus hic expedita pariatur voluptas maiores soluta illo ut fugiat, perferendis laborum vitae. In, esse?</p>
+    </header>
+    <main>
+        <section>
+            <h1>My awesome DOM de baba</h1>
+        <ul>
+            <li>jalali set</li>
+            <li>shafayet</li>
+            <li>bonobash</li>
+        </ul>
+        </section>
+        <section>
+            <h1 id="fruits-title">My favorite fruit</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Jackfruit</li>
+                <li>Banana</li>
+            </ul>
+        </section>
+        <section>
+            <h1 id="places-title">Places I like to vist</h1>
+            <ul>
+                <li class="important-places">Pert</li>
+                <li class="important-places">Kashmir</li>
+                <li>Italy</li>
+            </ul>
+        </section>
+    </main>
+    <script src="main.js"></script>
+    <script>
+        const places = document.getElementsByClassName('important-places');
+        for(const place of places){
+            console.log(place);
+        }
+    </script>
 </body>
 </html>

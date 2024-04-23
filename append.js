@@ -1,4 +1,5 @@
-const pinkButton = document.getElementById("make-pink");
-pinkButton.addEventListener('click', ()=>{
-    document.body.style.backgroundColor = 'pink';
+const click = document.getElementById('clicked');
+click.addEventListener('click', ()=>{
+    const hobe = document.getElementById('changehobe');
+    hobe.innerText = "aije hoise"
 })

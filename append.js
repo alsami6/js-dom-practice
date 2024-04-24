@@ -25,13 +25,16 @@
 
 
 
-const post = document.getElementById('c-post');
-post.addEventListener('click', ()=>{
-    const cmt = document.getElementById('comment')
-    const jk = cmt.value;
-    const commentSpace = document.getElementById('cmnt-box');
-    const p = document.createElement('p');
-    p.innerText = jk;
-    commentSpace.appendChild(p);
-    cmt.value = '';
-})
+// const post = document.getElementById('c-post');
+// post.addEventListener('click', ()=>{
+//     const cmt = document.getElementById('comment')
+//     const jk = cmt.value;
+//     const commentSpace = document.getElementById('cmnt-box');
+//     const p = document.createElement('p');
+//     p.innerText = jk;
+//     commentSpace.appendChild(p);
+//     cmt.value = '';
+// })
+
+
+console.log("ajk kisu korte issa korse na")

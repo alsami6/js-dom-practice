@@ -6,27 +6,9 @@
     <title>More event</title>
 </head>
 <body>
-    <h1 id="info">My info</h1>
-    <input type="text" id="con" placeholder="plase type delete">
-    <button id="btn-delete" disabled>Delete</button>
+    <button onclick="loadUsers()">Load users</button>
 
-
-
-    <script>
-        document.getElementById('con').addEventListener('keyup', (e)=>{
-            const text = e.target.value;
-            const deleteButton = document.getElementById('btn-delete')
-            if(text === "delete"){
-                deleteButton.removeAttribute('disabled');
-            }
-            else{
-                deleteButton.setAttribute('disabled', true)
-            }
-        })
-        document.getElementById('btn-delete').addEventListener('click', ()=>{
-            const jk = document.getElementById('info');
-            jk.style.display = 'none';
-        })
-    </script>
+   
+    <script src="append.js"></script>
 </body>
 </html>

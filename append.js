@@ -37,4 +37,13 @@
 // })
 
 
-console.log("ajk kisu korte issa korse na")
+function loadUsers(){
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json())
+    .then(d => displayUsers(d))
+}
+
+
+function displayUsers(d){
+    console.log(d);
+}

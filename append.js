@@ -37,30 +37,39 @@
 // })
 
 
-function loadUsers(){
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(res => res.json())
-    .then(d => displayUsers(d))
-}
+// function loadUsers(){
+//     fetch('https://jsonplaceholder.typicode.com/users')
+//     .then(res => res.json())
+//     .then(d => displayUsers(d))
+// }
 
 
-function displayUsers(d){
-    console.log(d);
-}
+// function displayUsers(d){
+//     console.log(d);
+// }
 
-function loadUsers2(){
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(res => res.json())
-    .then(data => displayUsers2(data))
-}
+// function loadUsers2(){
+//     fetch('https://jsonplaceholder.typicode.com/users')
+//     .then(res => res.json())
+//     .then(data => displayUsers2(data))
+// }
 
-function displayUsers2(data){
-    const ul = document.getElementById('usersList')
-    for(const user of data){
-        console.log(user.name);
+// function displayUsers2(data){
+//     const ul = document.getElementById('usersList')
+//     for(const user of data){
+//         console.log(user.name);
         
-    const li = document.createElement('li')
-    li.innerText = user.name;
-    ul.appendChild(li)
-    }
+//     const li = document.createElement('li')
+//     li.innerText = user.name;
+//     ul.appendChild(li)
+//     }
+// }
+
+
+function loadPost(){
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json)
+    .then(d => console.log(d))
 }
+
+loadPost()

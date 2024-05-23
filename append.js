@@ -66,17 +66,32 @@
 // }
 
 
-function loadPost(){
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(res => res.json)
-    .then(d => console.log(d))
-}
+// function loadPost(){
+//     fetch('https://jsonplaceholder.typicode.com/users')
+//     .then(res => res.json)
+//     .then(d => console.log(d))
+// }
 
-loadPost()
+// loadPost()
 
+// for (let i = 5; i < 100; i++) {
+//     console.log(i);
+// }
 
-for (let i = 10; i < 100; i++) {
-    const element = i;
-    console.log(element);
+// for (let i = 10; i < 100; i++) {
+//     const element = i;
+//     console.log(element);
     
+// }
+
+
+const JsUser = {
+    name: "Sami",
+    age: 18,
+    location: "Dhaka",
+    email: "xyz@gmail.com",
+    isLoggedIn: false,
+    lastLoginDays: ["Monday", "Saturday"]
 }
+
+
